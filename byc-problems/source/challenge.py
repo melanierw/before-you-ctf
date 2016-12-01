@@ -7,7 +7,7 @@ class Problem(Challenge):
 	#comment
 	def setup(self):
 		x = 1 + 1
-		files = [File("core1")]
+		files = [File("index.html")]
 	def generate_flag(self,random):
 		m = "svchost.exe"
 		return m

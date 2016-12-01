@@ -2,7 +2,7 @@
   "name": "Super Secret Password",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
-  "description": "There is a website running at {{url_for('core1')}} TODO",
+  "description": "There is a website running at {{url_for('index.html')}} TODO",
   "score" : 40,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
