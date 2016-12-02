@@ -1,6 +1,6 @@
 {
   "name": "Word Search",
-  "category": "Recon",
+  "category": "BYC",
   "pkg_dependencies": [],
   "description": "You found a word search for funzies ( {{url_for('word_search.jpg')}} )", 
   "score" : 10,
