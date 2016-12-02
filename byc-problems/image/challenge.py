@@ -7,7 +7,7 @@ class Problem(Challenge):
 	#comment
 	def setup(self):
 		x = 1 + 1
-		files = [File("index.html")]	
+		files = [File("what_picture.jpg")]	
 
 	def generate_flag(self,random):
 		return "neuromancer"
