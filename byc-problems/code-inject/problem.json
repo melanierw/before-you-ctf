@@ -1,0 +1,12 @@
+{
+  "name": "Throw Some Code In There",
+  "category": "Web Exploitation",
+  "pkg_dependencies": [],
+  "pkg_dependencies": ["php5-sqlite"],
+  "description": "TODO! http://{{server}}:{{port}}/index.html ",
+
+  "score" : 10,
+  "hints": [],
+  "author": "Melanie Rich-Wittrig",
+  "organization": "ForAllSecure"
+}
