@@ -2,7 +2,7 @@
   "name": "Hilarious Outlet",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
-  "description": "PWNME keeps the location of its secret base hidden, and you're not supposed to take pictures on site, but this outlet is super funny, and it couldn't hurt to share, right? ( {{url_for('what_picture.jpg')}} )", 
+  "description": "PWNME keeps the location of its secret base hidden, and you're not supposed to take pictures on site, but this outlet is super funny, and it couldn't hurt to share, right? ( {{url_for('outlet.jpg')}} )", 
   "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
