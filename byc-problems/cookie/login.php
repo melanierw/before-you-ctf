@@ -19,17 +19,17 @@
 	<?php 
 	      if (!isset($_COOKIE["session_id"])) {
 	      	      setcookie("session_id", "67", time()+3600);	 
-		      echo "<h3>Welcome!</h3> <p>This is your first time here, so were assigning you a new session number.</p> <p>Your session number is <b>67</b>.</p><p>We'll be tracking you using this number whenever you visit this site.</p>";
+		      echo "<h3>Welcome!</h3> <p>This is your first time here, so were assigning you a new session number.</p> <p>Your session number is <b>67</b>.</p><p>You'll probably have to wait a while.</p>";
 	      }
 	      else {
-	      	   echo "<h3>Welcome Back!</h3><p>Your session number is <b>" . intval($_COOKIE["session_id"]) . "</b>.</p><p>We'll be tracking you using this number whenever you visit this site.</p>"; 
+	      	   echo "<h3>Welcome Back!</h3><p>Your session number is <b>" . intval($_COOKIE["session_id"]) . "</b>.</p>"; 
 	      }
        	?>
 	<?php
 	      $logged_in = isset($_COOKIE["session_id"]) && intval($_COOKIE["session_id"]) > 20 && intval($_COOKIE["session_id"]) < 67;
 	      $expired = isset($_COOKIE["session_id"]) && intval($_COOKIE["session_id"]) < 66;
 	      if ($logged_in) {
-		 echo "You're in! FLAG: there_is_a_cookie";
+		 echo "<p>You're in, have a flag!</p><p>there_is_no_cookie</p>";
 	      }
 	      elseif ($expired) {
 	      	 echo "<span style='color: red;'>Your login session has expired. You will need to log in again.</span>";

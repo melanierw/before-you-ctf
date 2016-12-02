@@ -1,12 +1,12 @@
 {
-  "name": "Cooookie Crisp",
+  "name": "Take A Cookie",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
   "pkg_dependencies": ["php5-sqlite"],
-  "description": "Try to see if you can login! http://{{server}}:{{port}}/login.php ",
+  "description": "PWNME's remote site is under a heavy load, so you might have to wait in line. Try to see if you can cut the line and log in anyway! http://{{server}}:{{port}}/login.php ",
 
   "score" : 10,
   "hints": [],
-  "author": "Jonathan Burket",
+  "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
 }
