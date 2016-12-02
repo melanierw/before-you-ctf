@@ -1,7 +1,10 @@
-{"name": "Cookie Time",
- "score": 10,
- "category": "Web Exploitation",
- "description": "You have found the administrative control panel for the Daedalus Coperation Website: <a target=_blank href='http://web2014.picoctf.com/delicious-5850932/login.php'>https://web2014.picoctf.com/delicious-5850932/login.php</a>. Unfortunately, it requires that you be logged in. Can you find a way to convince the web site that you are, in fact, logged in?",
- "hints": [],
- "author" : "Jonathan Burket"
+{
+  "name": "Cookie Crisp",
+  "category": "Web Exploitation",
+  "pkg_dependencies": ["php5-sqlite"],
+  "description": "There is a website running at http://{{server}}:{{port}}. Try to see if you can login!",
+  "score" : 10,
+  "hints": [],
+  "author": "Jonathan Burket",
+  "organization": "ForAllSecure"
 }
