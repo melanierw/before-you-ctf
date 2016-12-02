@@ -24,4 +24,4 @@ class Problem(PHPApp):
 #  files.extend(files_from_directory("."))
   files = (files_from_directory("."))
   def generate_flag(self,random):
-    return "matrixed"
+    return "there_is_a_cookie"

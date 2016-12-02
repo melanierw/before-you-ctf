@@ -3,7 +3,7 @@
   "category": "Web Exploitation",
   "pkg_dependencies": [],
   "pkg_dependencies": ["php5-sqlite"],
-  "description": "website. Try to see if you can login! http://{{server}}:{{port}}/login.php ",
+  "description": "Try to see if you can login! http://{{server}}:{{port}}/login.php ",
 
   "score" : 10,
   "hints": [],
