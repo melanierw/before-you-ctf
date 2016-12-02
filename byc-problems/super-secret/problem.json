@@ -2,7 +2,7 @@
   "name": "Super Secret",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
-  "description": "Mr. Anderson sometimes forgets his password, but don't worry, he's hidden it in a super secret way. He's so confident that he's given you the site to check out: http://{{server}}:{{port}} ",
+  "description": "Mr. Anderson sometimes forgets his password, but he's hidden it in a super secret way. He's even given you the website, because he's sure you can't find it. http://{{server}}:{{port}}",
   "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
