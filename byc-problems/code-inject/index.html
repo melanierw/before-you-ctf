@@ -1,10 +1,14 @@
 <html>
 <body>
 
+<h1>Vulnerability: Command Injection</h1>
+<h2>Ping a device</h2>
 <form action="low.php" method="post">
-IP: <input type="text" name="ip"><br>
-<input type="submit">
+	<p>
+		Enter an IP address:
+		<input type="text" name="ip" size="30">
+		<input type="submit">
+	</p>
 </form>
-
 </body>
 </html>
