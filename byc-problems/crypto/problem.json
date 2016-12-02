@@ -1,0 +1,10 @@
+{
+  "name": "Decoder",
+  "category": "Crypto",
+  "pkg_dependencies": [],
+  "description": "You find a string of characters that doesn't seem to fit. Maybe someone's trying to hide something. (Z3VyIHN5bnQgdmYgcmFwZWxjZ3ByY2d2YmE=)",
+  "score" : 10,
+  "hints": [],
+  "author": "Melanie Rich-Wittrig",
+  "organization": "ForAllSecure"
+}
