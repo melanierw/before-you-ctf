@@ -1,0 +1,13 @@
+{"name": "Delicious!",
+ "score": 60,
+ "category": "Web Exploitation",
+ "grader": "web/delicious/grader.py",
+ "description": "You have found the administrative control panel for the Daedalus Coperation Website: <a target=_blank href='http://web2014.picoctf.com/delicious-5850932/login.php'>https://web2014.picoctf.com/delicious-5850932/login.php</a>. Unfortunately, it requires that you be logged in. Can you find a way to convince the web site that you are, in fact, logged in?",
+ "threshold": 2,
+ "weightmap": {
+    "Redacted": 1,
+    "Toaster Control": 1,
+    "Towers of Toast": 1
+ },
+ "autogen": false,
+ "hint": "Your cookie tells the site what your session number is. Maybe you can guess the value of the cookie for a user who's already logged in..."}
