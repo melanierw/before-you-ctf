@@ -1,0 +1,51 @@
+| Your Name:
+Jonathan Burket
+
+| Problem Text (to be displayed to the user):
+You have found the administrative control panel for the Daedalus 
+Coperation Website: <a href='#'>http://something.com</a>. Unfortunately, 
+it requires that you be logged in. Can you find a way to convince the 
+web site that you are, in fact, logged in?
+
+| Problem Name:
+Delicious!
+
+| Solution (full write-up):
+This is a session hikacking problem. When you visit the site, you are 
+assigned session number 67 via a cookie. The site uses this session 
+number to determine whether you are logged in already. While you are not 
+logged in, the users with session numbers 21-66 are all still logged in. 
+Thus, by altering your cookie to be within 21 and 67, you will appear to 
+the system to be oe of the users who is already logged in. Since you 
+appear to be logged in, the site gives you the flag.
+
+| Follow-up Text (Optional text to be displayed after user solves the challenge. Links to real world examples, lessons learned, etc.):
+Session keys stored in cookies should not be guessable, otherwise users 
+can hijack the sessions of other users.
+
+| Category:
+Web Exploitation
+
+| Approximate Point Value (on 0-200 scale):
+60
+
+| Display Hint:
+Your cookie tells the site what your session number is. Maybe you can 
+guess the value of the cookie for a user who's already logged in...
+
+| Extra Hint (to be given after the Display Hint):
+According to your cookie, you are session number 67. It turns out that 
+the user with session number 66 is still logged in.
+
+| Required Files:
+- bootstrap.min.css
+- daedalus.png
+- login.php
+
+| Precise Setup Details (Needs a specific web server, user with limited permissions, etc.):
+The three files listed above need to be served from any web server that supports PHP
+
+| Tools Needed to Solve:
+Web Browser, Cookie editing tool
+
+| Relevant Educational Material:

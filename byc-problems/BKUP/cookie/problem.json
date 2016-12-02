@@ -1,0 +1,10 @@
+{
+  "name": "Cookie Crisp",
+  "category": "Web Exploitation",
+  "pkg_dependencies": ["php5-sqlite"],
+  "description": "There is a website running at http://{{server}}:{{port}}. Try to see if you can login!",
+  "score" : 10,
+  "hints": [],
+  "author": "Jonathan Burket",
+  "organization": "ForAllSecure"
+}
