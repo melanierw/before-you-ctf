@@ -1,0 +1,10 @@
+{
+  "name": "Redact This",
+  "category": "Web Exploitation",
+  "pkg_dependencies": [],
+  "description": "This memo was circulated at PWNME with the password redacted for safety. Can you figure out the password anyway? {{url_for('what_picture.jpg')}} ", 
+  "score" : 10,
+  "hints": [],
+  "author": "Melanie Rich-Wittrig",
+  "organization": "ForAllSecure"
+}
