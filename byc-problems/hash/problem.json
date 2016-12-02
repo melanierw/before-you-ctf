@@ -1,9 +1,9 @@
 {
-  "name": "Hash With Salt Please",
+  "name": "Salt With A Side Of Social",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
   "description": "You found a file containing hashed passwords, and these hashes may not have been generated with best practices. Can you deduce the password of admin? {{url_for('passwords.txt')}} ", 
-  "score" : 10,
+  "score" : 20,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
