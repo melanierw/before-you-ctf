@@ -1,5 +1,5 @@
 {
-  "name": "Hash Without Salt, Please",
+  "name": "Hash With Salt Please",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
   "description": "You found a file containing hashed passwords, and these hashes may not have been generated with best practices. Can you deduce the password of admin? {{url_for('passwords.txt')}} ", 
