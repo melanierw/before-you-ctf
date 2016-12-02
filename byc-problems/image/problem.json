@@ -1,0 +1,10 @@
+{
+  "name": "Interesting Poster",
+  "category": "Web Exploitation",
+  "pkg_dependencies": [],
+  "description": "Mr. Anderson has avoided password reuse for his personal laptop, but you noticed a poster above his desk ( {{url_for('index.html')}} ). Can you guess his password?", 
+  "score" : 40,
+  "hints": [],
+  "author": "Melanie Rich-Wittrig",
+  "organization": "ForAllSecure"
+}
