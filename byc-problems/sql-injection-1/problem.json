@@ -5,6 +5,6 @@
   "description": "Mr. Anderson recently learned about how awesome SQL Databases are and immediately made one to handle logging into a website. Try to see if you can login! http://{{server}}:{{port}} ",
   "score" : 10,
   "hints": [],
-  "author": "Tim Becker",
+  "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
 }
