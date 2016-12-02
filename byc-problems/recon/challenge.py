@@ -7,7 +7,7 @@ class Problem(Challenge):
 	#comment
 	def setup(self):
 		x = 1 + 1
-		files = [File("outlet.jpg")]	
+		files = [File("word_search.jpg")]	
 
 	def generate_flag(self,random):
 		return "matrixed"

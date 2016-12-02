@@ -18,3 +18,6 @@ class Problem(PHPApp):
 
     conn.commit()
     conn.close()
+  def generate_flag(self,random):
+    return "there_is_no_cookie"
+

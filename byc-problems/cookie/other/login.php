@@ -29,7 +29,7 @@
 	      $logged_in = isset($_COOKIE["session_id"]) && intval($_COOKIE["session_id"]) > 20 && intval($_COOKIE["session_id"]) < 67;
 	      $expired = isset($_COOKIE["session_id"]) && intval($_COOKIE["session_id"]) < 66;
 	      if ($logged_in) {
-	      	 echo "You're logged in as <b>Dr. Florian Richards</b>. Today's secret Daedalus code is: session_cookies_are_the_most_delicious";
+	      	 echo "You're logged in as <b>Dr. Florian Richards</b>. Today's secret Daedalus code is: there_is_no_cookie";
 	      }
 	      elseif ($expired) {
 	      	 echo "<span style='color: red;'>Your login session has expired. You will need to log in again.</span>";
