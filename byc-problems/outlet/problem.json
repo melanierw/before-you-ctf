@@ -1,8 +1,8 @@
 {
   "name": "Hilarious Outlet",
-  "category": "Web Exploitation",
+  "category": "Misc",
   "pkg_dependencies": [],
-  "description": "PWNME keeps the location of its secret base hidden, and you're not supposed to take pictures on site, but this outlet is super funny, and it couldn't hurt to share, right? ( {{url_for('outlet.jpg')}} )", 
+  "description": "PWNME keeps the location of its secret base hidden, and you're not supposed to take pictures on site, but someone couldn't resist sharing this hilarious outlet. Can you find the lowercase name of the base's location? {{url_for('outlet.jpg')}}", 
   "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
