@@ -2,8 +2,8 @@
   "name": "Google Crawling Back To You",
   "category": "Web Exploitation",
   "pkg_dependencies": [],
-  "description": "There is a website running at http://{{server}}:{{port}}. Joe Bob has cleverly hidden a file, so the Google Crawler can't find it! Can you?",
-  "score" : 40,
+  "description": "SecurityCandy.com is hosting some of Mr. Anderson's static files. He wants to keep one file hidden, so he made sure that it won't be crawled. Can you find it?",
+  "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
