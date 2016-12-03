@@ -1,9 +1,9 @@
 {
-  "name": "Decoder",
-  "category": "BYC",
+  "name": "Decoder I Hardly Know Her",
+  "category": "Cryptography",
   "pkg_dependencies": [],
-  "description": "You find a string of characters that doesn't seem to fit. Maybe someone's trying to hide something. (Z3VyIHN5bnQgdmYgcmFwZWxjZ3ByY2d2YmE=)",
-  "score" : 10,
+  "description": "There's a weird string in one of PWNME's documents. Maybe someone's trying to hide another lowercase flag… Z3VyIHN5bnQgdmYgcmFwZWxjZ3ByY2d2YmE=",
+  "score" : 20,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
