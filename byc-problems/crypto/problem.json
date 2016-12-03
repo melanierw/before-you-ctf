@@ -3,7 +3,7 @@
   "category": "Cryptography",
   "pkg_dependencies": [],
   "description": "There's a weird string in one of PWNME's documents. Maybe someone's trying to hide another lowercase flag… Z3VyIHN5bnQgdmYgcmFwZWxjZ3ByY2d2YmE=",
-  "score" : 20,
+  "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
   "organization": "ForAllSecure"
