@@ -1,8 +1,8 @@
 {
   "name": "Interesting Poster",
-  "category": "Web Exploitation",
+  "category": "Misc",
   "pkg_dependencies": [],
-  "description": "Mr. Anderson has avoided password reuse for his personal laptop, but you noticed a poster above his desk ( {{url_for('what_picture.jpg')}} ). Can you guess his password?", 
+  "description": "Mr. Anderson has avoided password reuse for his personal laptop, but you noticed a poster above his desk. Can you guess his lowercase password? {{url_for('what_picture.jpg')}}", 
   "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
