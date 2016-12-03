@@ -1,8 +1,8 @@
 {
   "name": "Word Search",
-  "category": "BYC",
+  "category": "Recon",
   "pkg_dependencies": [],
-  "description": "You found a word search for funzies ( {{url_for('word_search.jpg')}} )", 
+  "description": "You found a word search, and PWNME seems to like hiding things in odd places. If you find anything useful, submit it in lowercase. {{url_for('word_search.jpg')}}", 
   "score" : 10,
   "hints": [],
   "author": "Melanie Rich-Wittrig",
