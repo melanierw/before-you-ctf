@@ -1,6 +1,6 @@
 {
   "name": "Redact This",
-  "category": "Web Exploitation",
+  "category": "Misc",
   "pkg_dependencies": [],
   "description": "This memo was circulated at PWNME with the password redacted for safety. Can you figure out the password anyway? {{url_for('RedactIt.pdf')}} ", 
   "score" : 10,
